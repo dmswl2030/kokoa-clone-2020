@@ -14,4 +14,10 @@
 - screens 폴더 : 해당 페이지에서만 사용할 스타일
 - 레이아웃 나누기 : status-bar(스타일 반복) / header(chat, find랑 같은 스타일) / nav(4개 페이지 스타일 반복)
 - nav-chat icon위에 넘버링 : 부모에 position: relative, 해당 요소에 position: absolute, top, left값 설정하기
--
+
+## 3. Chats-page
+
+- chat-page : 채팅 아이콘이 채워짐, friends-page : 사람 아이콘이 채워짐
+- header부분에 아이콘 추가
+- user-component\_\_column의 레이아웃 수정
+- 개수를 나타내는 숫자 뱃지부분 css 분리
