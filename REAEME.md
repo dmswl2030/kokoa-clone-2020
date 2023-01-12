@@ -19,5 +19,11 @@
 
 - chat-page : 채팅 아이콘이 채워짐, friends-page : 사람 아이콘이 채워짐
 - header부분에 아이콘 추가
-- user-component\_\_column의 레이아웃 수정
+- user-component__column의 레이아웃 수정
 - 개수를 나타내는 숫자 뱃지부분 css 분리
+
+## 4. Find-page
+
+- 설정 아이콘의 빨간 알림 뱃지 추가
+- 반복되는 border 스타일 변수로 설정
+- position: absolute, relative 설정 반복하면서 많이 익숙해짐
