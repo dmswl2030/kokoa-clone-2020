@@ -27,3 +27,14 @@
 - 설정 아이콘의 빨간 알림 뱃지 추가
 - 반복되는 border 스타일 변수로 설정
 - position: absolute, relative 설정 반복하면서 많이 익숙해짐
+
+## 5. more, setting, chat page
+
+- 아이콘이나 영역을 눌렀을 때 페이지로 연결되도록 a태그 활용
+- 아이콘을 양쪽으로 배치할 때 margin-right: auto, margin-left: auto를 쓰면 아주 간단하고 예쁘게 배치됨..!
+- chat-page: 상태바, 채팅 상단바를 모두 position: fixed로 하여 하단으로 스크롤해도 위치고정 할 수 있고 z-index로 레이어의 순서를 지정할 수 있다
+- 반복되는 부분은 무조건 component로 빼서 활용도를 높인다
+- 채팅 말풍선 모양을 css로 하기 어려워 모서리 부분을 각지게 표현하는 것으로 변경
+- 요소의 순서를 바꾸는 방법
+  1) order : 숫자 => flex children에게만 적용됨
+  2) flex-direction : row-reverse
