@@ -13,6 +13,7 @@
 }
 .more-suggestions__icons {
   display: flex;
+  justify-content: space-around;
 }
 
 .more-suggestions__icon {
@@ -36,4 +37,8 @@
 .more-suggestions__icon-image i {
   font-size: 32px;
   color: white;
+}
+.more-suggestions__icon-image img {
+  width: 90px;
+  height: 90px;
 }

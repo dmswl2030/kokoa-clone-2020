@@ -16,7 +16,7 @@
         <span>18:43</span>
       </div>
       <div class="status-bar__column">
-        <span>110%</span>
+        <span>100%</span>
         <i class="fas fa-battery-full fa-2x"></i>
         <i class="fas fa-bolt"></i>
       </div>
@@ -27,8 +27,15 @@
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span>
-          <i class="fas fa-cog fa-lg"></i>
-          <div class="bedge_default"></div>
+          <a href="music.html">
+            <i class="fas fa-music fa-lg"></i>
+          </a>
+        </span>
+        <span>
+          <a href="settings.html">
+            <i class="fas fa-cog fa-lg"></i>
+            <div class="bedge_default"></div>
+          </a>
         </span>
       </div>
     </header>
@@ -54,7 +61,24 @@
       </div>
       <div class="recommended-friends">
         <h6 class="recommended-friends__title">Recommended Friends</h6>
-        <span>You have no recommended friends.</span>
+        <!-- <span>You have no recommended friends.</span> -->
+        <div class="recommended-friends__contents">
+          <div class="more-suggestions__icons recommend-contents">
+            <div class="more-suggestions__icon">
+              <div class="more-suggestions__icon-image">
+                <img src="./img/Fighting Ogu.jpeg" alt="">
+              </div>
+              <span class="more-suggestions__icon-text recommend-contents">Fighting Ogu</span>
+            </div>
+            <div class="more-suggestions__icon">
+              <div class="more-suggestions__icon-image">
+                <img src="./img/emoji Ogu.jpeg" alt="">
+              </div>
+              <span class="more-suggestions__icon-text recommend-contents">Emoji Ogu</span>
+            </div>
+          </div>
+        </div>
+        
       </div>
       <div class="open-chat">
         <div class="open-chat__header">
@@ -81,6 +105,29 @@
               />
               <div class="open-post__heart-count">
                 <i class="fas fa-heart fa-xs"></i><span>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#Nomad_Study_10week</h5>
+            <h6 class="open-post__hashtags">#Nomad#Nico#Study</h6>
+            <div class="open-post__members">
+              <img src="https://avatars3.githubusercontent.com/u/3612017" />
+              <span class="open-post__member-count">100 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img
+                src="https://nomadcoders.co/m.svg"
+              />
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart fa-xs"></i><span>1000</span>
               </div>
             </div>
           </div>
@@ -114,6 +161,11 @@
       </ul>
     </nav>
 
+    <div id="no-mobile">
+      <img src="./img/big-size-item.jpeg" alt="">
+      <span>Your Screen is too big....!</span>
+    </div>
+    
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
