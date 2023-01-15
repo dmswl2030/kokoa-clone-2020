@@ -38,3 +38,15 @@
 - 요소의 순서를 바꾸는 방법
   1) order : 숫자 => flex children에게만 적용됨
   2) flex-direction : row-reverse
+
+## 6. splash screen, write message, animation, media query
+- 스플래시 화면 : 2초 후 화면이 사라지는 모션 추가
+- 메세지에 커서가 인지되면 양옆의 버튼들이 숨겨지면서 쓰는칸이 넓어지는 애니메이션 추가
+- media query : 모바일 화면크기를 벗어나면 화면이 너무 크다는 문구와 함께 다른 스크린이 나오도록 수정
+
+## 7. Ogu Talk
+- 오구캐릭터를 활용해 카카오톡에 테마가 있는것 처럼 이미지 추가
+- Music 아이콘에 마우스가 올라가면 애니메이션 나오도록 추가
+- Music 아이콘 클릭 시 music.html로 모두 이동하도록 링크 추가
+- setting 아이콘 클릭시 setting.html로 모두 이동하도록 링크 추가
+- more의 suggest를 find로 가져와 컴포넌트로 활용
